@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_page</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sourav's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Sourav</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="DEVELOPER-RESUME.pdf" download="DEVELOPER-RESUME.pdf">
+                        <button class="btn">Download Resume</button></a>
+
+                    <button class="btn" onclick="window.location.href='https://github.com/Sourav7895';"
+                        value="github">Visit Github</button>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="port.jpg" alt="my_photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection"><span class="text-gray">
+                <h1>What I have done so far </h1>
+            </span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html.png" alt="html_dev" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">Self study
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img src="css1.jfif" alt="css_dev" class="image-top">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">Self study</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="js.png" alt="javascript_dev" class="image-top">
+                    <div class="vertical-title">
+                        Javascript Developer
+                    </div>
+                    <div class="vertical-desc">Self study</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="php.png" alt="php_dev" class="image-top">
+                    <div class="vertical-title">
+                        PHP Developer
+                    </div>
+                    <div class="vertical-desc">Self study</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="java.png" alt="java_dev" class="image-top">
+                    <div class="vertical-title">
+                        JAVA Developer
+                    </div>
+                    <div class="vertical-desc">Self study</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sourav's portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="https://www.instagram.com/vrindavan_ke_pagal_006/"><img src="insta.png" alt=""
+                                class="image-bottom">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/sourav-baghel-437444244/"><img src="linkedin.png" alt=""
+                                class="image-bottom">linkedIn</a></li>
+                    <li><a href="https://github.com/Sourav7895"><img src="github.jfif" alt=""
+                                class="image-bottom">GitHub</a></li>
+                    <li><a href="https://m.facebook.com/sourav.baghel.3192/"><img src="facebook.png" alt=""
+                                class="image-bottom">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://wa.me/7895572487">
+                            <img src="whatsapp.png" alt="" class="image-bottom">Whatsapp</a>
+                    </li>
+                    <li><a href="https://ratm.in/"><img src="college_logo.jfif" alt="" class="image-bottom">My
+                            College</a></li>
+                    <li><a href="https://github.com/Sourav7895"><img src="github.jfif" alt=""
+                                class="image-bottom">GitHub</a></li>
+                    <li><a href="https://m.facebook.com/sourav.baghel.3192/"><img src="facebook.png" alt=""
+                                class="image-bottom">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="https://www.instagram.com/vrindavan_ke_pagal_006/"><img src="insta.png" alt=""
+                                class="image-bottom">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/sourav-baghel-437444244/"><img src="linkedin.png" alt=""
+                                class="image-bottom">linkedIn</a></li>
+                    <li><a href="https://github.com/Sourav7895"><img src="github.jfif" alt=""
+                                class="image-bottom">GitHub</a></li>
+                    <li><a href="https://m.facebook.com/sourav.baghel.3192/"><img src="facebook.png" alt=""
+                                class="image-bottom">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.souravsportfolio.com
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>

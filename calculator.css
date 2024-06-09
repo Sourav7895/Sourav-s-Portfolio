@@ -1,0 +1,38 @@
+body {
+    background-color: #121230;
+}
+
+section {
+    text-align: -webkit-center;
+}
+
+.calculator {
+    border: solid black;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    background-color: gray;
+
+}
+
+#display {
+    margin: 10px;
+    width: 85%;
+    border: solid black;
+    border-radius: 6px;
+}
+
+.btn-contener {
+    padding: 5px;
+    width: 95%;
+    height: 95%;
+}
+
+button {
+    width: 25%;
+    height: 20%;
+    margin: 2px;
+    padding: 6px;
+    border: solid black;
+    border-radius: 6px;
+}
